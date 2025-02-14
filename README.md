@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+It creates an API route that returns images at `/api/image/route.tsx` used like `/api/image?title=hi`
+
+It adds a `metadataBase` to `layout.tsx` to set the base URL for the app
+
+It adds `Metadata` to the page to update the metadata for the page.
+
 ## Getting Started
 
 First, run the development server:
